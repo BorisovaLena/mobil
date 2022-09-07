@@ -6,48 +6,48 @@ namespace входной_контроль
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Задача 1");
-            //Console.WriteLine("введите первое число: ");
-            //double a = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("введите второе число: ");
-            //double b = Convert.ToDouble(Console.ReadLine());
-            //Step(a, b);
+            Console.WriteLine("Задача 1");
+            Console.WriteLine("введите первое число: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("введите второе число: ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Step(a, b);
 
-            //Console.WriteLine("Задача 3");
-            //Console.WriteLine("введите число: ");
-            //int с = Convert.ToInt32(Console.ReadLine());
-            //Ostat(с);
+            Console.WriteLine("Задача 3");
+            Console.WriteLine("введите число: ");
+            int с = Convert.ToInt32(Console.ReadLine());
+            Ostat(с);
 
-            //Console.WriteLine("Задача 4");
-            //Console.WriteLine("введите число: ");
-            //int p = Convert.ToInt32(Console.ReadLine());
-            //Chislo(p);
+            Console.WriteLine("Задача 4");
+            Console.WriteLine("введите число: ");
+            int p = Convert.ToInt32(Console.ReadLine());
+            Chislo(p);
 
-            //Console.WriteLine("Задача 5");
-            //Console.WriteLine("введите x: ");
-            //double x = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("введите y: ");
-            //double y = Convert.ToDouble(Console.ReadLine());
-            //Resh(x, y);
+            Console.WriteLine("Задача 5");
+            Console.WriteLine("введите x: ");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("введите y: ");
+            double y = Convert.ToDouble(Console.ReadLine());
+            Resh(x, y);
 
             Console.WriteLine("Задача 6");
             Console.WriteLine("введите число: ");
             int l = Convert.ToInt32(Console.ReadLine());
             Fib(l);
 
-            //Console.WriteLine("Задача 7");
-            //Console.WriteLine("введите число: ");
-            //int n = Convert.ToInt32(Console.ReadLine());
-            //Posled(n);
+            Console.WriteLine("Задача 7");
+            Console.WriteLine("введите число: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Posled(n);
 
-            //Console.WriteLine("Задача 8");
-            //Console.WriteLine("введите первый результат: ");
-            //double q = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("введите второй результат: ");
-            //double q2 = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("введите третий результат: ");
-            //double q3 = Convert.ToDouble(Console.ReadLine());
-            //Plav(q, q2, q3);
+            Console.WriteLine("Задача 8");
+            Console.WriteLine("введите первый результат: ");
+            double q = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("введите второй результат: ");
+            double q2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("введите третий результат: ");
+            double q3 = Convert.ToDouble(Console.ReadLine());
+            Plav(q, q2, q3);
 
         }
 
