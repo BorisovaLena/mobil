@@ -18,6 +18,11 @@ namespace входной_контроль
             int с = Convert.ToInt32(Console.ReadLine());
             Ostat(с);
 
+            Console.WriteLine("Задача 4");
+            Console.WriteLine("введите число: ");
+            int p = Convert.ToInt32(Console.ReadLine());
+            Chislo(p);
+
             Console.WriteLine("Задача 5");
             Console.WriteLine("введите x: ");
             double x = Convert.ToDouble(Console.ReadLine());
@@ -60,9 +65,21 @@ namespace входной_контроль
             }
         }
 
-        public static void Chislo(int a)
+        public static void Chislo(int n)
         {
-
+            if(n<1&&n>10)
+            {
+                Console.WriteLine("рядом не может быть меньше 1 и больше 10!");
+            }
+            else
+            {
+                string mas = Convert.ToString(n);
+                mas.Reverse();
+                for (int i = mas.Length; i >0; i--)
+                {
+                    Console.WriteLine(mas[i-1]);
+                }
+            }
         }
 
         public static void Resh(double x, double y)
